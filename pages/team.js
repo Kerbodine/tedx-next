@@ -1,4 +1,4 @@
-import Member from "../components/member";
+import Member from "../components/Member";
 import { teachers, students, guests } from "../config.js";
 import Divider from "../components/Divider";
 
