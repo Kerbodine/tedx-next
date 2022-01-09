@@ -3,37 +3,37 @@ const speakers = [
     name: "Jane Doe",
     description: "very qualified person",
     talk: "Important talk title",
-    img: "https://unsplash.it/200/200",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jane Doe",
     description: "very qualified person",
     talk: "Important talk title",
-    img: "https://unsplash.it/200/200",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jane Doe",
     description: "very qualified person",
     talk: "Important talk title",
-    img: "https://unsplash.it/200/200",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jane Doe",
     description: "very qualified person",
     talk: "Important talk title",
-    img: "https://unsplash.it/200/200",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jane Doe",
     description: "very qualified person",
     talk: "Important talk title",
-    img: "https://unsplash.it/200/200",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jane Doe",
     description: "very qualified person",
     talk: "Important talk title",
-    img: "https://unsplash.it/200/200",
+    img: "/placeholder.jpg",
   },
 ];
 
@@ -41,22 +41,22 @@ const teachers = [
   {
     name: "James Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/240/240",
+    img: "/placeholder.jpg",
   },
   {
     name: "James Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/240/240",
+    img: "/placeholder.jpg",
   },
   {
     name: "James Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/240/240",
+    img: "/placeholder.jpg",
   },
   {
     name: "James Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/240/240",
+    img: "/placeholder.jpg",
   },
 ];
 
@@ -64,72 +64,72 @@ const students = [
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
   {
     name: "John Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/300/300",
+    img: "/placeholder.jpg",
   },
 ];
 
@@ -137,27 +137,27 @@ const guests = [
   {
     name: "Jessica Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/250/250",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jessica Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/250/250",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jessica Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/250/250",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jessica Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/250/250",
+    img: "/placeholder.jpg",
   },
   {
     name: "Jessica Doe",
     description: "role 1, role 2",
-    img: "https://unsplash.it/250/250",
+    img: "/placeholder.jpg",
   },
 ];
 
