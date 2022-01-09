@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "../public/logo-light.svg";
 
 import NavbarItem from "./NavbarItem";
 
@@ -38,9 +38,10 @@ export default function Navbar() {
   return (
     <>
       <div className="w-full h-20 bg-gray-100 flex items-center px-4 sm:px-8">
-        <div className="relative py-6 w-40">
-          <Image src="/logo-light.svg" layout="fill" />
-        </div>
+        <Link href="/" passHref>
+          <Logo className="h-16 cursor-pointer" />
+        </Link>
+        <div className="relative py-6 w-40"></div>
         <div className="ml-auto hidden gap-4 md:flex">
           {pages.map((page) => (
             <Link href={page.path} aria-label={page.title} key={page.path}>
