@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Speaker({ name, description, talk, img }) {
   return (
-    <div className="w-full h-24 hover:ring-gray-200 hover:ring-2 rounded-xl flex px-4 py-4 gap-4 group cursor-pointer">
+    <div className="w-full h-24 hover:ring-gray-200 hover:ring-2 rounded-xl flex px-4 py-4 gap-4 group cursor-pointer relative">
       <div className="w-16 h-16 border-ted-red border-4 rounded-full">
         <Image
           src={img}
