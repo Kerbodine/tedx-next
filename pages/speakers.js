@@ -1,4 +1,3 @@
-import React from "react";
 import Speaker from "../components/Speaker";
 import SpeakerIcon from "../public/speaker.svg";
 import { speakers } from "../config.js";
