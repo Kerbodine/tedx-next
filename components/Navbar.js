@@ -41,7 +41,6 @@ export default function Navbar() {
         <Link href="/" passHref>
           <Logo className="h-16 cursor-pointer" />
         </Link>
-        <div className="relative py-6 w-40"></div>
         <div className="ml-auto hidden gap-4 md:flex">
           {pages.map((page) => (
             <Link href={page.path} aria-label={page.title} key={page.path}>
@@ -59,7 +58,7 @@ export default function Navbar() {
         </div>
       </div>
       {showNav ? (
-        <div className="w-full border-t-2 border-gray-300 bg-gray-100 flex flex-wrap gap-x-2 py-2 justify-center">
+        <div className="w-full md:hidden border-t-2 border-gray-300 bg-gray-100 flex flex-wrap gap-x-2 py-2 justify-center">
           {pages.map((page) => (
             <Link href={page.path} aria-label={page.title} key={page.path}>
               <a>
