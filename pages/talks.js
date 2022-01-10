@@ -1,3 +1,14 @@
+import Head from "next/head";
+
 export default function talks() {
-  return <div>Talks page</div>;
+  return (
+    <>
+      <div>
+        <Head>
+          <title>Talks | TEDxVSA</title>
+        </Head>
+        <p>Talks page</p>
+      </div>
+    </>
+  );
 }
