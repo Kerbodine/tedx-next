@@ -39,9 +39,9 @@ export default function Navbar() {
     <>
       <div className="w-full h-20 bg-gray-100 flex items-center px-4 sm:px-8">
         <Link href="/" passHref>
-          <Logo className="h-16 cursor-pointer" />
+          <Logo className="h-12 cursor-pointer" />
         </Link>
-        <div className="ml-auto hidden gap-4 md:flex">
+        <div className="ml-auto hidden gap-4 lg:flex">
           {pages.map((page) => (
             <Link href={page.path} aria-label={page.title} key={page.path}>
               <a>
@@ -51,14 +51,14 @@ export default function Navbar() {
           ))}
         </div>
         <div
-          className="flex items-center justify-center ml-auto md:hidden text-2xl w-8 h-8 rounded-md hover:bg-gray-200"
+          className="flex items-center justify-center ml-auto lg:hidden text-2xl w-8 h-8 rounded-md hover:bg-gray-200"
           onClick={toggleNav}
         >
           <BiMenu />
         </div>
       </div>
       {showNav ? (
-        <div className="w-full md:hidden border-t-2 border-gray-300 bg-gray-100 flex flex-wrap gap-x-2 py-2 justify-center">
+        <div className="w-full absolute lg:hidden border-t-2 border-gray-300 bg-gray-100 flex flex-wrap gap-x-2 py-2 justify-center">
           {pages.map((page) => (
             <Link href={page.path} aria-label={page.title} key={page.path}>
               <a>

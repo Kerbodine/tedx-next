@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="w-full h-64 bg-black">
       <div className="mx-auto max-w-4xl text-center px-8 pt-8 text-gray-500">
-        <Logo className="w-72 md:w-84 mx-auto mb-4" />
+        <Logo className="w-full sm:w-[420px] md:w-84 mx-auto mb-4" />
         <p>This Independent TEDx event is operated under license from TED.</p>
         <p>© {new Date().getFullYear()} TEDxVSA, All rights reserved.</p>
         <p className="mt-4">

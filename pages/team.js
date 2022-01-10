@@ -7,7 +7,7 @@ export default function Team() {
   return (
     <>
       <Head>
-        <title>Team | TEDxVSA</title>
+        <title>Team | TEDxVictoriaShanghaiAcademy</title>
       </Head>
 
       <div className="px-8 pt-8 mx-auto max-w-4xl pb-16">

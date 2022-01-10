@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact | TEDxVSA</title>
+        <title>Contact | TEDxVictoriaShanghaiAcademy</title>
       </Head>
       <div className="px-8 py-16 mx-auto max-w-4xl flex flex-col-reverse md:flex-row gap-8 pb-16">
         <form className="flex flex-col gap-2">

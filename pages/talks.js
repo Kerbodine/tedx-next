@@ -5,7 +5,7 @@ export default function talks() {
     <>
       <div>
         <Head>
-          <title>Talks | TEDxVSA</title>
+          <title>Talks | TEDxVictoriaShanghaiAcademy</title>
         </Head>
         <p>Talks page</p>
       </div>

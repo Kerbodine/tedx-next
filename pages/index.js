@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | TEDxVSA</title>
+        <title>Home | TEDxVictoriaShanghaiAcademy</title>
       </Head>
       <video
         className={`w-screen h-[calc(100vh-5rem)] object-cover`}
