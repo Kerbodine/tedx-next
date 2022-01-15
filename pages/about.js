@@ -9,10 +9,10 @@ export default function About() {
       </Head>
 
       <div className="px-8 py-16 mx-auto max-w-4xl">
-        <heading className="w-full relative h-10 flex items-center mb-2">
-          <div className="absolute h-6 w-[6px] rounded-full bg-ted-red"></div>
+        <heading className="w-full relative flex items-center mb-2">
+          <div className="absolute h-[80%] w-[6px] rounded-full bg-ted-red"></div>
           <h2 className="text-2xl ml-4 font-bold text-ted-red">
-            A note from the event organizers:
+            A note from the organizers:
           </h2>
         </heading>
         <p className="leading-6 text-gray-600">
@@ -21,8 +21,8 @@ export default function About() {
           adipisci voluptas, veniam non eum odit porro eveniet vero nesciunt?
           Placeat, sapiente consequatur.
         </p>
-        <heading className="w-full relative h-10 flex items-center mb-2 mt-8">
-          <div className="absolute h-6 w-[6px] rounded-full bg-ted-red"></div>
+        <heading className="w-full relative flex items-center mb-2 mt-8">
+          <div className="absolute h-[80%] w-[6px] rounded-full bg-ted-red"></div>
           <h2 className="text-2xl ml-4 font-bold text-ted-red">About TEDx:</h2>
         </heading>
         <p className="leading-6 text-gray-600">
@@ -35,8 +35,8 @@ export default function About() {
           individual TEDx events are self-organized. (Subject to certain rules
           and regulations.)
         </p>
-        <heading className="w-full relative h-10 flex items-center mb-2 mt-8">
-          <div className="absolute h-6 w-[6px] rounded-full bg-ted-red"></div>
+        <heading className="w-full relative flex items-center mb-2 mt-8">
+          <div className="absolute h-[80%] w-[6px] rounded-full bg-ted-red"></div>
           <h2 className="text-2xl ml-4 font-bold text-ted-red">About TED:</h2>
         </heading>
         <p className="leading-6 text-gray-600">
