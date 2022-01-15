@@ -26,12 +26,16 @@ export default function Navbar() {
       title: "Talks",
     },
     {
-      path: "/contact",
-      title: "Contact",
+      path: "/about",
+      title: "About",
     },
     {
       path: "/team",
       title: "Our team",
+    },
+    {
+      path: "/contact",
+      title: "Contact",
     },
   ];
 

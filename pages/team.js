@@ -10,7 +10,7 @@ export default function Team() {
         <title>Team | TEDxVictoriaShanghaiAcademy</title>
       </Head>
 
-      <div className="px-8 pt-8 mx-auto max-w-4xl pb-16">
+      <div className="px-8 py-16 mx-auto max-w-4xl pb-16">
         <h2 className="text-2xl font-bold mb-8 text-ted-red text-center">
           Meet The Team:
         </h2>

@@ -27,7 +27,9 @@ export default function Speakers() {
           </div>
           <SpeakerIcon className="flex-none hidden md:block w-64 rounded-xl" />
         </div>
-        <h2 className="mt-8 text-xl font-bold mb-2">All Speakers:</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-2 text-ted-red ml-4">
+          All speakers:
+        </h2>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mb-16">
           {speakers.map((speaker, index) => (
             <Speaker
