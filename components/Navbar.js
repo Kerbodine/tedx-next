@@ -22,10 +22,6 @@ export default function Navbar() {
       title: "Speakers",
     },
     {
-      path: "/talks",
-      title: "Talks",
-    },
-    {
       path: "/about",
       title: "About",
     },

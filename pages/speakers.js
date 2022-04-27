@@ -38,6 +38,7 @@ export default function Speakers() {
               description={speaker.description}
               talk={speaker.talk}
               img={speaker.img}
+              bio={speaker.bio}
             />
           ))}
         </div>
