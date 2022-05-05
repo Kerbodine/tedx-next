@@ -16,10 +16,14 @@ export default function About() {
           </h2>
         </heading>
         <p className="leading-6 text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          architecto repudiandae rerum. Minima obcaecati nisi quam facilis
-          adipisci voluptas, veniam non eum odit porro eveniet vero nesciunt?
-          Placeat, sapiente consequatur.
+          Hello! We are the organisers of TedXVictoriaShanghaiAcademy. We are
+          very glad to present the TedX event that we have spent upwards of 8
+          months planning. We hope that everybody will appreciate the efforts
+          that our speakers, team of organisers, and technicians have made to
+          make this day possible. We also hope you will gain many insights
+          pertaining to the theme of this event - &quot;What it means to be
+          human in 2022.&quot; Thank you very much for being a part of
+          TedXVictoriaShanghaiAcademy!
         </p>
         <heading className="w-full relative flex items-center mb-2 mt-8">
           <div className="absolute h-[80%] w-[6px] rounded-full bg-ted-red"></div>

@@ -80,7 +80,7 @@ export default function Speaker({ name, description, talk, img, bio }) {
         </Dialog>
       </Transition>
       <div
-        className="w-full h-24 hover:bg-gray-100 rounded-xl flex px-4 py-4 gap-4 group cursor-pointer relative"
+        className="w-full h-24 hover:bg-gray-100 items-center rounded-xl flex px-4 py-4 gap-4 group cursor-pointer relative"
         onClick={openModal}
       >
         <div className="w-16 h-16 border-ted-red border-4 rounded-full">
@@ -93,11 +93,11 @@ export default function Speaker({ name, description, talk, img, bio }) {
           />
         </div>
         <div>
-          <h3 className="text-lg uppercase font-bold tracking-tight text-ted-red -mb-2">
+          <h3 className="text-lg uppercase font-bold tracking-tight text-ted-red">
             {name}
           </h3>
-          <p className="text-sm text-gray-500">{description}</p>
-          <p className="text-lg font-bold">{talk}</p>
+          {/* <p className="text-sm text-gray-500">{description}</p> */}
+          <p className="text-lg font-semibold">{talk}</p>
         </div>
         <FiArrowUpRight className="absolute top-2 hidden right-2 text-2xl text-gray-500 group-hover:block" />
       </div>
