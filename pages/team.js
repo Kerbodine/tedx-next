@@ -16,7 +16,7 @@ export default function Team() {
           Meet The Team
         </h2>
         <div className="w-full flex justify-center">
-          <div className="w-full max-w-2xl aspect-[5/3] rounded-2xl bg-gray-100 mb-4 ring-4 ring-ted-red/25 shadow-lg relative overflow-hidden">
+          <div className="w-full max-w-2xl aspect-[5/3] rounded-2xl bg-gray-100 mb-4 ring-4 ring-ted-red/25 relative overflow-hidden">
             <Image src="/team.png" layout="fill" alt="Team Picture" />
           </div>
         </div>
