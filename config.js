@@ -51,13 +51,15 @@ const speakers = [
     description: "very qualified person",
     talk: "Important talk title",
     img: "/speakers/rex.png",
-    bio: ["a"],
+    bio: [
+      "Hong Kong-born Rex Li is a musician and 10th-year student at Victoria Shanghai Academy.  Exhibiting a passion for both leadership, public speaking and music, Rex is a piano player with an avid passion for music.  His hobbies include online gaming, bowling, badminton and tennis.  Through his experiences, Rex became fascinated with the concept of stereotypes through interacting with others of different nationalities. He therefore developed his vision, which is to move closer to a world free of bias and discrimination, which he desires to share with you all through his TEDx Talk.",
+    ],
   },
   {
     name: "Jeffrey Wai",
     description: "very qualified person",
     talk: "Important talk title",
-    img: "/placeholder.png",
+    img: "/speakers/jeffrey.png",
     bio: [
       "Jeffrey is passionate about all kinds of sports, whether he is playing, watching, or even talking about it! Jeffrey is keen to share his experience in sports, and how it has helped him in various aspects of his life. He is excited to be a speaker and explain the benefits of incorporating exercise into your daily routine.",
     ],
