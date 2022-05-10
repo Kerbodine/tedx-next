@@ -83,7 +83,7 @@ export default function Speaker({ name, description, talk, img, bio }) {
         className="w-full h-24 hover:bg-gray-100 items-center rounded-xl flex px-4 py-4 gap-4 group cursor-pointer relative"
         onClick={openModal}
       >
-        <div className="w-16 h-16 border-ted-red border-4 rounded-full">
+        <div className="w-16 h-16 border-ted-red border-4 rounded-full flex-none">
           <Image
             src={img}
             alt={name}
@@ -97,7 +97,7 @@ export default function Speaker({ name, description, talk, img, bio }) {
             {name}
           </h3>
           {/* <p className="text-sm text-gray-500">{description}</p> */}
-          <p className="text-lg font-semibold">{talk}</p>
+          <p className="text font-medium leading-5">{talk}</p>
         </div>
         <FiArrowUpRight className="absolute top-2 hidden right-2 text-2xl text-gray-500 group-hover:block" />
       </div>

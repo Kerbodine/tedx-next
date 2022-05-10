@@ -1,4 +1,5 @@
 const speakers = [
+  // remove
   {
     name: "Sonia Lau",
     description: "very qualified person",
@@ -11,7 +12,7 @@ const speakers = [
   {
     name: "Isaac Mak",
     description: "very qualified person",
-    talk: "Important talk title",
+    talk: "Science - Beyond the Boundaries of Academia",
     img: "/speakers/isaac.png",
     bio: [
       "Isaac’s interest in science began as he was making a model of a eukaryotic cell in Y7. Since then, he has taken part in numerous science-related endeavours, including creating a series of IBDP nucleic acid learning aids for his Y10 Personal Project. Having realised that it empowers us to lead more fulfilling lives, Isaac has a deep appreciation for the scientific method.",
@@ -22,7 +23,7 @@ const speakers = [
   {
     name: "Jovia Hau",
     description: "very qualified person",
-    talk: "Important talk title",
+    talk: "Why should we read?",
     img: "/speakers/jovia.png",
     bio: [
       "Jovia Hau is a 13-year-old, Year 7 student studying at Victoria Shanghai Academy. She studied in Kau Yan School before she moved to Victoria Shanghai Academy. Jovia is currently involved in VSA debating and Public Speaking club. She enjoys watching TEDx talks and learns more through talks. Her passion for reading has been motivating her to be a better student. Other than reading, Jovia also likes to listen to music and play the cello.",
@@ -31,16 +32,17 @@ const speakers = [
   {
     name: "Jeremy Leung",
     description: "very qualified person",
-    talk: "Important talk title",
+    talk: "Education, and how humans were born to learn",
     img: "/speakers/jeremy.png",
     bio: [
       "Jeremy Leung is a Year 9 student at VSA. He is passionate about STEM, education, and instant ramen, and has a vision of changing our education system for the better.",
     ],
   },
+  // remove
   {
     name: "Luke Yang",
     description: "very qualified person",
-    talk: "Important talk title",
+    talk: "Convergent and divergent thinking",
     img: "/speakers/luke.png",
     bio: [
       "Luke Yang is an aspiring physicist. He actively engages in both computer science and physics to discover the limits of his intellect. Also, he absolutely detests fruits of all kind.",
@@ -49,7 +51,7 @@ const speakers = [
   {
     name: "Rex Li",
     description: "very qualified person",
-    talk: "Important talk title",
+    talk: "Stereotypes in society - The harsh reality of an image representing you",
     img: "/speakers/rex.png",
     bio: [
       "Hong Kong-born Rex Li is a musician and 10th-year student at Victoria Shanghai Academy.  Exhibiting a passion for both leadership, public speaking and music, Rex is a piano player with an avid passion for music.  His hobbies include online gaming, bowling, badminton and tennis.  Through his experiences, Rex became fascinated with the concept of stereotypes through interacting with others of different nationalities. He therefore developed his vision, which is to move closer to a world free of bias and discrimination, which he desires to share with you all through his TEDx Talk.",
@@ -58,11 +60,25 @@ const speakers = [
   {
     name: "Jeffrey Wai",
     description: "very qualified person",
-    talk: "Important talk title",
+    talk: "How does the Olympics Change the Way We See/Value Ourselves?",
     img: "/speakers/jeffrey.png",
     bio: [
       "Jeffrey is passionate about all kinds of sports, whether he is playing, watching, or even talking about it! Jeffrey is keen to share his experience in sports, and how it has helped him in various aspects of his life. He is excited to be a speaker and explain the benefits of incorporating exercise into your daily routine.",
     ],
+  },
+  {
+    name: "Galaxy Yu",
+    description: "very qualified person",
+    talk: 'What it means to "live"',
+    img: "/",
+    bio: [""],
+  },
+  {
+    name: "Sophie Suen",
+    description: "very qualified person",
+    talk: "Mental illness, academics, neuro-diversity, technology",
+    img: "/speakers/sophie.png",
+    bio: [""],
   },
 ];
 
