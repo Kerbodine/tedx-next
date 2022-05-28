@@ -10,7 +10,7 @@ export default function Speakers() {
         <title>Speakers | TEDxVictoriaShanghaiAcademy</title>
       </Head>
       <div className="px-8 pt-8 mx-auto max-w-4xl">
-        <h2 className="text-2xl font-bold mt-8 mb-2 text-ted-red ml-4">
+        <h2 className="text-4xl font-bold mt-8 mb-2 text-ted-red ml-4">
           All speakers:
         </h2>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mb-16">

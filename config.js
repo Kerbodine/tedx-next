@@ -1,14 +1,14 @@
 const speakers = [
   // remove
-  {
-    name: "Sonia Lau",
-    description: "very qualified person",
-    talk: "Important talk title",
-    img: "/speakers/sonia.png",
-    bio: [
-      "Sonia Lau is a Year 3 student majoring in Global Business and Marketing at the Hong Kong University of Science and Technology (HKUST). She graduated from VSA back in 2019 and studied at Victoria since kindergarten. Ultimately, she aspires to become a business owner. However, she hopes to learn more about the world and gain more hands-on experience prior to achieving that goal. Hence, she hopes to become a management consultant after she graduates and has an interest in retail and digital-related projects. Sonia brings positive energy and tries her best in everything she commits to. In her free time, Sonia enjoys catching up with her friends, doing aerial yoga, and watching tv shows.",
-    ],
-  },
+  // {
+  //   name: "Sonia Lau",
+  //   description: "very qualified person",
+  //   talk: "Important talk title",
+  //   img: "/speakers/sonia.png",
+  //   bio: [
+  //     "Sonia Lau is a Year 3 student majoring in Global Business and Marketing at the Hong Kong University of Science and Technology (HKUST). She graduated from VSA back in 2019 and studied at Victoria since kindergarten. Ultimately, she aspires to become a business owner. However, she hopes to learn more about the world and gain more hands-on experience prior to achieving that goal. Hence, she hopes to become a management consultant after she graduates and has an interest in retail and digital-related projects. Sonia brings positive energy and tries her best in everything she commits to. In her free time, Sonia enjoys catching up with her friends, doing aerial yoga, and watching tv shows.",
+  //   ],
+  // },
   {
     name: "Isaac Mak",
     description: "very qualified person",
@@ -29,25 +29,25 @@ const speakers = [
       "Jovia Hau is a 13-year-old, Year 7 student studying at Victoria Shanghai Academy. She studied in Kau Yan School before she moved to Victoria Shanghai Academy. Jovia is currently involved in VSA debating and Public Speaking club. She enjoys watching TEDx talks and learns more through talks. Her passion for reading has been motivating her to be a better student. Other than reading, Jovia also likes to listen to music and play the cello.",
     ],
   },
-  {
-    name: "Jeremy Leung",
-    description: "very qualified person",
-    talk: "Education, and how humans were born to learn",
-    img: "/speakers/jeremy.png",
-    bio: [
-      "Jeremy Leung is a Year 9 student at VSA. He is passionate about STEM, education, and instant ramen, and has a vision of changing our education system for the better.",
-    ],
-  },
+  // {
+  //   name: "Jeremy Leung",
+  //   description: "very qualified person",
+  //   talk: "Education, and how humans were born to learn",
+  //   img: "/speakers/jeremy.png",
+  //   bio: [
+  //     "Jeremy Leung is a Year 9 student at VSA. He is passionate about STEM, education, and instant ramen, and has a vision of changing our education system for the better.",
+  //   ],
+  // },
   // remove
-  {
-    name: "Luke Yang",
-    description: "very qualified person",
-    talk: "Convergent and divergent thinking",
-    img: "/speakers/luke.png",
-    bio: [
-      "Luke Yang is an aspiring physicist. He actively engages in both computer science and physics to discover the limits of his intellect. Also, he absolutely detests fruits of all kind.",
-    ],
-  },
+  // {
+  //   name: "Luke Yang",
+  //   description: "very qualified person",
+  //   talk: "Convergent and divergent thinking",
+  //   img: "/speakers/luke.png",
+  //   bio: [
+  //     "Luke Yang is an aspiring physicist. He actively engages in both computer science and physics to discover the limits of his intellect. Also, he absolutely detests fruits of all kind.",
+  //   ],
+  // },
   {
     name: "Rex Li",
     description: "very qualified person",
@@ -84,126 +84,127 @@ const speakers = [
 
 const teachers = [
   {
-    name: "James Doe",
-    description: "role 1, role 2",
+    name: "Ms Rimma Tyan",
+    description: "Event coordinator",
     img: "/placeholder.jpg",
   },
   {
-    name: "James Doe",
-    description: "role 1, role 2",
+    name: "Ms Rebecca Lucas-Timpany",
+    description: "Event coordinator",
     img: "/placeholder.jpg",
   },
   {
-    name: "James Doe",
-    description: "role 1, role 2",
+    name: "Dr Gavin Hornbuckle",
+    description: "Supervising teacher",
     img: "/placeholder.jpg",
   },
-  {
-    name: "James Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
+  // {
+  //   name: "James Doe",
+  //   description: "role 1, role 2",
+  //   img: "/placeholder.jpg",
+  // },
 ];
 
-const students = [
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "John Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-];
+// const students = [
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "John Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+// ];
 
-const guests = [
-  {
-    name: "Jessica Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "Jessica Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "Jessica Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "Jessica Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-  {
-    name: "Jessica Doe",
-    description: "role 1, role 2",
-    img: "/placeholder.jpg",
-  },
-];
+// const guests = [
+//   {
+//     name: "Jessica Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "Jessica Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "Jessica Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "Jessica Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+//   {
+//     name: "Jessica Doe",
+//     description: "role 1, role 2",
+//     img: "/placeholder.jpg",
+//   },
+// ];
 
-export { speakers, teachers, students, guests };
+// export { speakers, teachers, students, guests };
+export { speakers, teachers };

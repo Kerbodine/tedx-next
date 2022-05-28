@@ -35,20 +35,23 @@ export default function Home() {
         </div>
         <hr className="border-2 border-white/25" />
         <div className="my-8">
-          <div className="flex">
+          <div className="flex items-center gap-3">
             <button
-              className="-ml-2 w-8 h-8 grid place-items-center text-ted-red text-4xl"
+              className="-ml-2 w-8 h-8 bg-gray-800 hover:bg-ted-red hover:text-white transition-colors rounded-md flex items-center justify-center text-ted-red text-4xl"
               onClick={() => {
                 setShowDropdown1(!showDropdown1);
               }}
             >
-              {showDropdown1 ? <BiChevronDown /> : <BiChevronRight />}
+              <BiChevronDown
+                className={`${
+                  showDropdown1 ? "rotate-0" : "-rotate-90"
+                } transition-transform duration-300`}
+              />
             </button>
-            <h2 className="text-3xl font-bold mb-4 text-ted-red">
-              What is TEDx?
-            </h2>
+            <h2 className="text-3xl font-bold text-ted-red">What is TEDx?</h2>
           </div>
-          {showDropdown1 && (
+          <div className={`${showDropdown1 ? "flex" : "hidden"} mt-1`}>
+            <div className="ml-1.5 mr-7 border-2 border-gray-700 bg-gray-500 my-2"></div>
             <p className="text-lg leading-[1.5] text-white/75">
               In the spirit of ideas worth spreading, TED has created a program
               called TEDx. TEDx is a program of local, self-organized events
@@ -61,21 +64,26 @@ export default function Home() {
               TEDx program, but individual TEDx events, including ours, are
               self-organized.
             </p>
-          )}
+          </div>
         </div>
         <div className="my-8">
-          <div className="flex">
+          <div className="flex items-center gap-3">
             <button
-              className="-ml-2 w-8 h-8 grid place-items-center text-ted-red text-4xl"
+              className="-ml-2 w-8 h-8 bg-gray-800 hover:bg-ted-red hover:text-white transition-colors rounded-md flex items-center justify-center text-ted-red text-4xl"
               onClick={() => {
                 setShowDropdown2(!showDropdown2);
               }}
             >
-              {showDropdown2 ? <BiChevronDown /> : <BiChevronRight />}
+              <BiChevronDown
+                className={`${
+                  showDropdown2 ? "rotate-0" : "-rotate-90"
+                } transition-transform duration-300`}
+              />
             </button>
-            <h2 className="text-3xl font-bold mb-4 text-ted-red">About TED:</h2>
+            <h2 className="text-3xl font-bold text-ted-red">About TED:</h2>
           </div>
-          {showDropdown2 && (
+          <div className={`${showDropdown2 ? "flex" : "hidden"} mt-1`}>
+            <div className="ml-1.5 mr-7 border-2 border-gray-700 bg-gray-500 my-2"></div>
             <p className="text-lg leading-[1.5] text-white/75">
               TED is a nonprofit organization devoted to Ideas Worth Spreading.
               Started as a four-day conference in California 30 years ago, TED
@@ -98,7 +106,7 @@ export default function Home() {
               helping world-changing innovators from around the globe to amplify
               the impact of their remarkable projects and activities. Follow TED
               on Twitter at{" "}
-              <span className="underline decoration-ted-red/50 hover:decoration-ted-red decoration-2">
+              <span className="underline decoration-4 decoration-ted-red/40 hover:decoration-ted-red transition-colors underline-offset-2">
                 <a
                   href="http://twitter.com/TEDTalks"
                   target="_blank"
@@ -108,7 +116,7 @@ export default function Home() {
                 </a>
               </span>
               , or on Facebook at{" "}
-              <span className="underline decoration-ted-red/50 hover:decoration-ted-red decoration-2">
+              <span className="underline decoration-4 decoration-ted-red/40 hover:decoration-ted-red transition-colors underline-offset-2">
                 <a
                   href="http://www.facebook.com/TED"
                   target="_blank"
@@ -119,7 +127,7 @@ export default function Home() {
               </span>
               .
             </p>
-          )}
+          </div>
         </div>
       </div>
     </div>
