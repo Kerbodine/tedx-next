@@ -94,6 +94,11 @@ const teachers = [
     img: "/placeholder.jpg",
   },
   {
+    name: "Ms Valerie Lau",
+    description: "Event coordinator",
+    img: "/placeholder.jpg",
+  },
+  {
     name: "Dr Gavin Hornbuckle",
     description: "Supervising teacher",
     img: "/placeholder.jpg",
