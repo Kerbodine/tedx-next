@@ -70,15 +70,19 @@ const speakers = [
     name: "Galaxy Yu",
     description: "very qualified person",
     talk: 'What it means to "live"',
-    img: "/",
-    bio: [""],
+    img: "/speakers/galaxy.jpg",
+    bio: [
+      "Galaxy Yu is a 17-year-old student studying in Hong Kong. She enjoys music, liberal arts, and socialising in her free time.",
+    ],
   },
   {
     name: "Sophie Suen",
     description: "very qualified person",
-    talk: "Mental illness, academics, neuro-diversity, technology",
+    talk: "How to find happiness",
     img: "/speakers/sophie.png",
-    bio: [""],
+    bio: [
+      "Sophie is a grade 11 student who develops a significant interest towards science, photography, arts, philosophy, psychology and economics. Experiencing a loved one passing away has made her deeply reflect upon one’s choices and purpose of life. In this speech, she hopes to offer a vision through narrating her bittersweet journey to find inner peace and resilience.",
+    ],
   },
 ];
 
@@ -91,125 +95,18 @@ const teachers = [
   {
     name: "Ms Rebecca Lucas-Timpany",
     description: "Event coordinator",
-    img: "/placeholder.jpg",
+    img: "/teachers/rlt.jpg",
   },
   {
     name: "Ms Valerie Lau",
     description: "Event coordinator",
-    img: "/placeholder.jpg",
+    img: "/teachers/valerie.png",
   },
   {
     name: "Dr Gavin Hornbuckle",
     description: "Supervising teacher",
     img: "/placeholder.jpg",
   },
-  // {
-  //   name: "James Doe",
-  //   description: "role 1, role 2",
-  //   img: "/placeholder.jpg",
-  // },
 ];
 
-// const students = [
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "John Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-// ];
-
-// const guests = [
-//   {
-//     name: "Jessica Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "Jessica Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "Jessica Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "Jessica Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-//   {
-//     name: "Jessica Doe",
-//     description: "role 1, role 2",
-//     img: "/placeholder.jpg",
-//   },
-// ];
-
-// export { speakers, teachers, students, guests };
 export { speakers, teachers };
