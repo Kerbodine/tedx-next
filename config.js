@@ -88,18 +88,18 @@ const speakers = [
 
 const teachers = [
   {
-    name: "Ms Rimma Tyan",
-    description: "Event coordinator",
-    img: "/placeholder.jpg",
-  },
-  {
     name: "Ms Rebecca Lucas-Timpany",
     description: "Event coordinator",
     img: "/teachers/rlt.jpg",
   },
   {
+    name: "Ms Rimma Tyan",
+    description: "Supervising teacher",
+    img: "/placeholder.jpg",
+  },
+  {
     name: "Ms Valerie Lau",
-    description: "Event coordinator",
+    description: "Supervising teacher",
     img: "/teachers/valerie.png",
   },
   {
