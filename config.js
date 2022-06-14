@@ -95,29 +95,24 @@ const speakers = [
 
 const teachers = [
   {
-    name: "Ms Rebecca Lucas-Timpany",
-    description: "Event coordinator",
-    img: "/teachers/rlt.jpg",
-  },
-  // {
-  //   name: "Ms Rimma Tyan",
-  //   description: "Supervising teacher",
-  //   img: "/placeholder.jpg",
-  // },
-  {
     name: "Ms Valerie Lau",
     description: "Supervising teacher",
     img: "/teachers/valerie.png",
   },
   {
+    name: "Ms Rebecca Lucas-Timpany",
+    description: "Event coordinator",
+    img: "/teachers/rlt.jpg",
+  },
+  {
     name: "Dr Gavin Hornbuckle",
     description: "Supervising teacher",
-    img: "/placeholder.jpg",
+    img: "/teachers/hornbuckle.jpg",
   },
   {
     name: "Mr Curtis Holland",
     description: "Supervising teacher",
-    img: "/placeholder.jpg",
+    img: "/teachers/holland.jpg",
   },
 ];
 
