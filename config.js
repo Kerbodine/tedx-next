@@ -84,6 +84,13 @@ const speakers = [
       "Sophie is a grade 11 student who develops a significant interest towards science, photography, arts, philosophy, psychology and economics. Experiencing a loved one passing away has made her deeply reflect upon one’s choices and purpose of life. In this speech, she hopes to offer a vision through narrating her bittersweet journey to find inner peace and resilience.",
     ],
   },
+  {
+    name: "Mr Jeremy Lai",
+    description: "very qualified person",
+    talk: "Always running out of time? Ways to get outsized productivity returns with your use of time",
+    img: "/speakers/jlai.jpg",
+    bio: [],
+  },
 ];
 
 const teachers = [
@@ -92,11 +99,11 @@ const teachers = [
     description: "Event coordinator",
     img: "/teachers/rlt.jpg",
   },
-  {
-    name: "Ms Rimma Tyan",
-    description: "Supervising teacher",
-    img: "/placeholder.jpg",
-  },
+  // {
+  //   name: "Ms Rimma Tyan",
+  //   description: "Supervising teacher",
+  //   img: "/placeholder.jpg",
+  // },
   {
     name: "Ms Valerie Lau",
     description: "Supervising teacher",
@@ -104,6 +111,11 @@ const teachers = [
   },
   {
     name: "Dr Gavin Hornbuckle",
+    description: "Supervising teacher",
+    img: "/placeholder.jpg",
+  },
+  {
+    name: "Mr Curtis Holland",
     description: "Supervising teacher",
     img: "/placeholder.jpg",
   },
