@@ -69,7 +69,7 @@ const speakers = [
   {
     name: "Galaxy Yu",
     description: "very qualified person",
-    talk: "Why shouldn't children be called mature",
+    talk: "Why Children Shouldn't Be Called Mature For Their Age",
     img: "/speakers/galaxy.jpg",
     bio: [
       "Galaxy Yu is a 17-year-old student studying in Hong Kong. She enjoys music, liberal arts, and socialising in her free time.",
@@ -87,7 +87,7 @@ const speakers = [
   {
     name: "Mr Jeremy Lai",
     description: "very qualified person",
-    talk: "Always running out of time? Ways to get outsized productivity returns with your use of time",
+    talk: "Ways to get outsized productivity returns with your use of time",
     img: "/speakers/jlai.jpg",
     bio: [],
   },
@@ -100,7 +100,7 @@ const teachers = [
     img: "/teachers/valerie.png",
   },
   {
-    name: "Ms Rebecca Lucas-Timpany",
+    name: "Mrs Rebecca Lucas-Timpany",
     description: "Event coordinator",
     img: "/teachers/rlt.jpg",
   },

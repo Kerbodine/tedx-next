@@ -35,9 +35,9 @@ export default function Team() {
         <div className="max-w-xl w-full mx-auto">
           <h3 className="mt-8 text-2xl font-semibold">Special Thanks To:</h3>
           <p className="text-gray-600">
-            Ms Tyan, Ms Ada Lee, Mr Ernie Wai, and all the supporting staff at
-            VSA who helped the Team in bringing the TEDxVictoriaShanghaiAcademy
-            to fruition.
+            Ms Rimma Tyan, Ms Ada Lee, Mr Ernie Wai, and all the supporting
+            staff at VSA who helped the Team in bringing the
+            TEDxVictoriaShanghaiAcademy to fruition.
           </p>
         </div>
       </div>
