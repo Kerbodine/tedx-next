@@ -60,7 +60,7 @@ const speakers = [
   {
     name: "Jeffrey Wai",
     description: "very qualified person",
-    talk: "How does the Olympics Change the Way We See/Value Ourselves?",
+    talk: "Strong Body Makes a Strong Mind",
     img: "/speakers/jeffrey.png",
     bio: [
       "Jeffrey is passionate about all kinds of sports, whether he is playing, watching, or even talking about it! Jeffrey is keen to share his experience in sports, and how it has helped him in various aspects of his life. He is excited to be a speaker and explain the benefits of incorporating exercise into your daily routine.",
@@ -69,7 +69,7 @@ const speakers = [
   {
     name: "Galaxy Yu",
     description: "very qualified person",
-    talk: 'What it means to "live"',
+    talk: "Why shouldn't children be called mature",
     img: "/speakers/galaxy.jpg",
     bio: [
       "Galaxy Yu is a 17-year-old student studying in Hong Kong. She enjoys music, liberal arts, and socialising in her free time.",
@@ -78,7 +78,7 @@ const speakers = [
   {
     name: "Sophie Suen",
     description: "very qualified person",
-    talk: "How to find happiness",
+    talk: "Happiness, Self-awareness, Tackling the Burdens and Sorrow Life Brings",
     img: "/speakers/sophie.png",
     bio: [
       "Sophie is a grade 11 student who develops a significant interest towards science, photography, arts, philosophy, psychology and economics. Experiencing a loved one passing away has made her deeply reflect upon one’s choices and purpose of life. In this speech, she hopes to offer a vision through narrating her bittersweet journey to find inner peace and resilience.",

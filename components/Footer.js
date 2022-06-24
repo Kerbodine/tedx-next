@@ -8,7 +8,10 @@ export default function Footer() {
         <p>
           This Independent TEDxYouth event is operated under license from TED.
         </p>
-        <p>© {new Date().getFullYear()} TEDxVSA, All rights reserved.</p>
+        <p>
+          © {new Date().getFullYear()} TEDxVictoriaShanghaiAcademy, All rights
+          reserved.
+        </p>
         <p className="mt-4">
           Website created by{" "}
           <a

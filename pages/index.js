@@ -24,13 +24,13 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4 text-ted-red">About us:</h2>
           <p className="text-lg leading-[1.5] text-white/75">
             Hello! We are the organizers of TEDxVictoriaShanghaiAcademy. We are
-            very glad to present the TEDx event that we have spent upwards of 8
-            months planning. We hope that everybody will appreciate the efforts
-            that our speakers, team of organizers, and technicians have made to
-            make this day possible. We also hope you will gain many insights
-            pertaining to the theme of this event - &quot;What it means to be
-            human in 2022.&quot; Thank you very much for being a part of
-            TedXVictoriaShanghaiAcademy!
+            very glad to present the TEDx event that we have spent upwards of
+            eight months planning. We hope that everybody will appreciate the
+            efforts that our speakers, team of organizers, and technicians have
+            made to make this day possible. We also hope you will gain many
+            insights pertaining to the theme of this event - &quot;What it means
+            to be human in 2022.&quot; Thank you very much for being a part of
+            TEDxVictoriaShanghaiAcademy!
           </p>
         </div>
         <hr className="border-2 border-white/25" />
