@@ -87,9 +87,11 @@ const speakers = [
   {
     name: "Mr Jeremy Lai",
     description: "very qualified person",
-    talk: "Ways to get outsized productivity returns with your use of time",
+    talk: "An Investment Approach to Time Management",
     img: "/speakers/jlai.jpg",
-    bio: [],
+    bio: [
+      `Regardless of technological progress, we always seem to be running out of time to achieve our goals and ambitions.  In this TED talk, Jeremy Lai will be introducing proven scientific ways to improve your use of time, productivity and getting more "bang for the second".  He will also talk about an investment approach to time, how through building time related capital, you can become much more effective with your use of time.`,
+    ],
   },
 ];
 
